@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+      }
+
+      .content {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #000000;
+      }
+
+      .campaign-section,
+      .logo-section {
+        flex: 1;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .campaign-section .image,
+      .logo-section .image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+      }
+
+      .campaign-section img,
+      .logo-section img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+
+      .text h2 {
+        font-size: 24px;
+        text-align: center;
+        color: black;
+        margin-bottom: 10px;
+      }
+
+      .text p {
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+      }
+
+      @media (max-width: 768px) {
+        .content {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .campaign-section,
+        .logo-section {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="campaign-section">
+          <div class="image">
+            <a href="work inside1.html" target="_blank">
+              <img src="Artboa.png" alt="Campaign Design" />
+            </a>
+          </div>
+          <div class="text">
+            <h2>CAMPAIGN DESIGN</h2>
+            <p>The project aims to promote Paperboat to all generations.</p>
+          </div>
+        </div>
+        <div class="logo-section">
+          <div class="image">
+            <a href="work inside.html" target="_blank">
+              <img src="Artbo1.png" alt="Logo Design" />
+            </a>
+          </div>
+          <div class="text">
+            <h2>LOGO DESIGN</h2>
+            <p>
+              SB ShutterWorks is a photography agency which specializes in
+              customization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="campaign-section">
+          <div class="image">
+            <a href="Visual.html">
+              <img src="Artboard 22.png" alt="Campaign Design" />
+            </a>
+          </div>
+          <div class="text">
+            <h2>VISUAL IDENTITY</h2>
+            <p>The project is visual identity of jwellery brand.</p>
+          </div>
+        </div>
+        <div class="logo-section">
+          <div class="image">
+            <a href="poster.html">
+              <img src="Artboard 16.png" alt="Logo Design" />
+            </a>
+          </div>
+          <div class="text">
+            <h2>POSTER DESIGN</h2>
+            <p>
+              SB ShutterWorks is a photography agency which specializes in
+              customization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
